@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(45deg, #2aa -50%, #255 50%, #333 130%);
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.login h1{
+    font-size: 50px;
+}
+.login{
+    background-color: #2aa;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    text-align: center;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+.login .user, .login .pass{
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid #333;
+    padding: 10px;
+    transition: .6s;
+}
+.login .user:focus , .login .pass:focus{
+    border-left: 20px solid #333;
+}
+
+.login .button{
+    background: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    color: #333;
+    margin: 10px;
+    transition: .4s;
+}
+.login .button:hover{
+    background-color: #333;
+    color: #2aa;
+}
+
+.login p{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.login p a{
+    text-decoration: none;
+    color: rgb(59, 18, 241);
+}
